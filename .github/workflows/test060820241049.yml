@@ -6,8 +6,8 @@ name: test060820241049
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-  schedule:
-    - cron: "*/6 * * * *"
+  #schedule:
+  # - cron: "*/6 * * * *"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
